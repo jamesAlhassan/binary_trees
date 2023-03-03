@@ -60,7 +60,6 @@ static size_t _height(const binary_tree_t *tree)
 	return (height_l > height_r ? height_l : height_r);
 }
 
-
 /**
  * binary_tree_print - Prints a binary tree
  *
