@@ -48,7 +48,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
-nt _pow_recursion(int x, int y);
+int _pow_recursion(int x, int y);
 binary_tree_t *bta_helper(binary_tree_t *root, const binary_tree_t *first, const binary_tree_t *second);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
